@@ -7,9 +7,11 @@
 </head>
 <body>
     <?php 
-    echo "hello World";
+    echo "<h1>Hello World<h1>";
     echo "<br>";
     echo "<h2>My name is Tanwat;</h2>";
+    echo 'PHP version:'.phpversion();
+    //phpinfo();
     ?>
 </body>
 </html>
